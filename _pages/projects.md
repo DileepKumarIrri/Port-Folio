@@ -7,9 +7,9 @@ header:
   overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
 ---
 
-Some recent projects I have worked on, with code.
+<!-- Some recent projects I have worked on, with code. -->
 
-**Neuroscience**
+<!-- **Neuroscience** -->
 
 <!-- 1. ethome: a post-posetracking analysis package for machine learning of animal behavior ([pypi](https://pypi.org/project/ethome-ml), [github](https://github.com/benlansdell/ethome))
 2. Analysis of neuronal spike trains, deconstructed: a comprehensive tutorial on common neural encoding methods (the GLM, spike-triggered average, spike-triggered covariance and others) with multiple datasets. ([github](https://github.com/NeuroInfoPrimer/primer))
