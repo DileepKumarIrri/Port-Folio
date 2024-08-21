@@ -1,0 +1,17 @@
+# main links links
+main:
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Publications"
+    url: /publications/
+ 
+#  - title: "Research"
+#    url: /research/
+
+#  - title: "Trips"
+#    url: /trips/
+
+  - title: "Overflow"
+    url: /posts/
