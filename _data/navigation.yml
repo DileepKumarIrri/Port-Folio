@@ -1,6 +1,8 @@
 # main links links
 main:
-
+  - title: "Posts"
+    url: /posts/
+    
   - title: "Projects"
     url: /projects/
 
@@ -13,5 +15,4 @@ main:
 #  - title: "Trips"
 #    url: /trips/
 
-  - title: "Overflow"
-    url: /posts/
+  
