@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ben Lansdell"
+title                    : "Dileep Kumar"
 title_separator          : "-"
-name                     : "Ben Lansdell"
-description              : "Applied mathematics, deep learning, computational neuroscience"
+name                     : "Dileep Kumar"
+description              : "CyberWarrior, Applied mathematics, Deep learning, Machine Learning"
 url                      : "//dileepkumarirri.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -62,18 +62,18 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Dileep Kumar"
-  avatar           : "lansdell.jpg"
-  bio              : "Machine Learning Engineer & Applied Mathematician"
-  location         : "St Jude"
-  email            : "ben dot lansdell at gmail dot com"
+  avatar           : "Professional.jpg"
+  bio              : "CyberWarrior & Machine Learning Engineer "
+  location         : "Kotabommali"
+  email            : "dileepkumarirr0@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : 149922637@N08
-  facebook         : ben.lansdell
+  # flickr           : 149922637@N08
+  facebook         : DileepKumar
   foursquare       :
-  github           : benlansdell
+  github           : DileepKumarIrri
   google_plus      :
   keybase          :
   instagram        :
