@@ -2,8 +2,8 @@
 layout: archive
 author_profile: false
 permalink: /posts/
-title: "Overflow"
-excerpt: "Thoughts on neuroscience, statistics, computing"
+title: "Go Through"
+excerpt: "Thoughts on computer Science, statistics, Machine Learning"
 header:
   overlay_image: ../images/computer.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
