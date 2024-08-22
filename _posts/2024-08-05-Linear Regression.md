@@ -134,7 +134,8 @@ Predicting exam scores based on hours studied (\( X_1 \)) and the number of prac
    </div>
 
    Where:
-   - \( Y \) = Predicted exam score
+   - <div>
+   $$\( Y \) = Predicted exam score
    - \( X_1 \) = Hours studied
    - \( X_2 \) = Number of practice tests
    - \( b_0 \) = Intercept
