@@ -152,9 +152,13 @@ Predicting exam scores based on hours studied (\( X_1 \)) and the number of prac
      </div>
 
      Where:
+    <div>
+    $$
      - \( \mathbf{X} \) is the matrix of input variables (including a column of 1s for \( b_0 \)).
      - \( \mathbf{Y} \) is the vector of outputs (exam scores).
      - \( \mathbf{b} \) is the vector of coefficients \([b_0, b_1, b_2]\).
+    $$
+    </div>
 
    - **Calculation Example:**
      - Given data:
