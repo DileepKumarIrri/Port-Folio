@@ -6,32 +6,31 @@
    Typography
    ========================================================================== */
 
-   $doc-font-size: 12;
+$doc-font-size              : 12;
 
-   /* paragraph indention */
-   $paragraph-indent: false; // true, false (default)
-   $indent-var: 1.3em;
-   
-   /* system typefaces */
-   $serif: $serif-font-family; // Using the serif font family from the first snippet
-   $sans-serif: $sans-serif-font-family; // Using the sans-serif font family from the first snippet
-   $monospace: $monospace-font-family; // Using the monospace font family from the first snippet
-   
-   /* sans serif typefaces */
-   $sans-serif-narrow: $sans-serif;
-   $helvetica: $sans-serif; // Use the sans-serif variable from above for consistency
-   
-   /* serif typefaces */
-   $georgia: $serif;
-   $times: $serif;
-   $bodoni: $serif;
-   $calisto: $serif;
-   $garamond: $serif;
-   
-   $global-font-family: $base-font-family; // Sets a global base font family
-   $header-font-family: $headline-font-family; // Sets the font for headers
-   $caption-font-family: $description-font-family; // Sets the font for captions
-   
+/* paragraph indention */
+$paragraph-indent           : false; // true, false (default)
+$indent-var                 : 1.3em;
+
+/* system typefaces */
+$serif                      : Georgia, Times, serif;
+$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+
+/* sans serif typefaces */
+$sans-serif-narrow          : $sans-serif;
+$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+
+/* serif typefaces */
+$georgia                    : Georgia, serif;
+$times                      : Times, serif;
+$bodoni                     : "Bodoni MT", serif;
+$calisto                    : "Calisto MT", serif;
+$garamond                   : Garamond, serif;
+
+$global-font-family         : $serif;
+$header-font-family         : $serif;
+$caption-font-family        : $serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
