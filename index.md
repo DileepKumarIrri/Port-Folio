@@ -88,6 +88,7 @@ I am Dileep Kumar,I am currently pursuing my Bachelors in computer science from 
 
 <br/>
 ## Skills 
+
 <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp; 
 
 <h4> Languages </h4>
@@ -147,7 +148,9 @@ I am Dileep Kumar,I am currently pursuing my Bachelors in computer science from 
   <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
   <img src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white"> -->
 </span>
-## 😂 Here is a random joke that'll make you laugh!
+
+##😂 Here is a random joke that'll make you laugh!
+
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
 ## Connect with me <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
@@ -156,4 +159,4 @@ I am Dileep Kumar,I am currently pursuing my Bachelors in computer science from 
 <a href="https://github.com/DileepKumarIrri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="HridoyHazard" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/dk-dileep/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shahadat-hossain-hridoy-629aa81b3/" height="30" width="50" /></a>
     
-  <h4 align="center"> Thanks for Visiting!:innocent:</h4>
+  <h4 align="center"> Thanks for Visiting!:</h4>
