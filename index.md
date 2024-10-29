@@ -94,7 +94,6 @@ I am Dileep Kumar,I am currently pursuing my Bachelors in computer science from 
 </p>
 
 <br/>
-
 ## Skills <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp; 
 
 <h4> Languages </h4>
