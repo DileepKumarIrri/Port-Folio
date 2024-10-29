@@ -3,7 +3,6 @@
 
 # Machine Learning Pipeline
 
-This README provides an overview of a standard Machine Learning (ML) pipeline, from data handling to MLOps. Each step is essential for building, training, deploying, and maintaining a successful ML model.
 
 ---
 
