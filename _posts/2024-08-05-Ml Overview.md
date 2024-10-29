@@ -1,4 +1,3 @@
-Here's a sample README file that covers each part of the ML pipeline you've outlined:
 
 ---
 
