@@ -12,8 +12,8 @@
    - Data Description
    - Data Preprocessing
 2. [Model Handling](#model-handling)
-3. [Model Development](#model-development)
-4. [MLOps](#mlops)
+<!-- 3. [Model Development](#model-development)
+4. [MLOps](#mlops) -->
 
 ---
 
@@ -32,16 +32,14 @@ The initial steps of any ML pipeline involve data acquisition and preparation, i
   - **Nominal**: Categories without a specific order (e.g., city, gender).
   - **Ordinal**: Categories with a specific order (e.g., rating levels).
 
-#### Data Preprocessing
+#### 2.Data Preprocessing
 Data preprocessing involves preparing raw data for modeling, using various techniques to clean and transform it for meaningful analysis.
 
 - **Data Wrangling**:
-  - Typecasting and string manipulations.
-  - Handling missing values and outliers.
-  - Removing duplicate rows and filtering data based on conditions.
-
+  
 - **Exploratory Data Analysis (EDA)**:
-  - **Descriptive Statistics**: Measures of central tendency (mean, median), dispersion (variance, standard deviation), and distribution (skewness, kurtosis).
+  - **Descriptive Statistics**: Measures of central tendency (mean, median,mode), dispersion (variance, standard deviation,Quartiles), and distribution Moments-4(mean,Standard deviation,skewness, kurtosis).
+  - **Types Of distirbution
   - **Inferential Statistics**:
     - Hypothesis testing (T-tests, Z-tests, Chi-square tests, F-tests).
     - Confidence intervals to estimate population parameters.
@@ -51,13 +49,13 @@ Data preprocessing involves preparing raw data for modeling, using various techn
 
 - **Feature Preprocessing**:
   - **Feature Engineering**: Creating new features to improve model performance.
-  - **Scaling**: Techniques such as Z-score normalization and Min-Max scaling to ensure consistent units.
+  - **Feature Scaling**: Techniques such as Z-score normalization and Min-Max scaling to ensure consistent units.
   - **Feature Selection**: Selecting the most relevant features to enhance model efficiency.
   - **Dimensionality Reduction**: Reducing feature space using techniques like PCA and LDA.
 
 ---
 
-### 2. Model Handling
+### 3. Model Handling
 
 Once the data is processed, the next step is to prepare it for the machine learning model:
 - **Data Splitting**: Divide data into training, validation, and test sets.
@@ -65,14 +63,14 @@ Once the data is processed, the next step is to prepare it for the machine learn
 
 ---
 
-### 3. Model Development
+###  Model Development
 
 This stage involves selecting and training models based on the data and the desired outcome.
 
 #### Types of Models
 - **Supervised Learning**: Uses labeled data for tasks like classification and regression. Common algorithms include Decision Trees, SVM, and Ensemble methods.
-- **Artificial Neural Networks (ANN)**: Multi-layered networks suitable for complex patterns, image classification, and more.
-- **Unsupervised Learning**: Works with unlabeled data for tasks like clustering and anomaly detection.
+- **ReinForce Learning**: Multi-layered networks suitable for complex patterns, image classification, and more.
+- **Unsupervised Learning**: Works with unlabeled data for tasks like clustering,Dimensionality Reduction,Association Rule Mining,Anamoly Detection
 - **Time Series Analysis**: Used for sequential data with time dependencies, relying on ML or DL models to capture trends and anomalies.
 
 ---
@@ -93,3 +91,17 @@ This ML pipeline provides a comprehensive roadmap for developing, deploying, and
 
 ---
 
+Data of four Levels-
+
+1.Numeric,text,categorical
+2.Time or non Time series
+3.Structured,Unstructured,Semi Structures
+4.Qunatitative Data,Qualitative data
+
+
+
+1.Data handling,Model development
+2.storage and comutation
+3
+4.in detail
+5.Satistics ,Linear algebra,caluclus optmisations
