@@ -1,3 +1,13 @@
+---
+title: "Decision Tree Classifier for Play Tennis Dataset"
+categories:
+  - computing
+tags:
+  - mathjax
+  - jekyll
+use_math: true
+published: true
+---
 
 
 | Day  | Outlook  | Temperature | Humidity | Wind   | PlayTennis |
@@ -32,7 +42,7 @@ Here, \(p_i\) is the proportion of instances belonging to class \(i\) in the dat
 
 The total number of instances is 14. Therefore, the entropy is:
 
-$\[
+\[
 H(S) = -\left(\frac{9}{14}\right)\log_2\left(\frac{9}{14}\right) - \left(\frac{5}{14}\right)\log_2\left(\frac{5}{14}\right)
 \]
 
@@ -43,7 +53,7 @@ H(S) = -\left(\frac{9}{14}\right)\log_2\left(0.6429\right) - \left(\frac{5}{14}\
 \[
 H(S) = -(0.6429 \times -0.6439) - (0.3571 \times -1.4855) = 0.940
 \]
-$
+
 ### Step 2: Calculate the Information Gain for Each Attribute
 
 #### 1. **Information Gain for "Outlook"**
