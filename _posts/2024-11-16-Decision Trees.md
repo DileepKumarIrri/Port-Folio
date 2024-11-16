@@ -21,10 +21,10 @@
 
 The formula for entropy \(H(S)\) is:
 
-\[
+$\[
 H(S) = - \sum_{i=1}^{c} p_i \log_2(p_i)
 \]
-
+$
 Here, \(p_i\) is the proportion of instances belonging to class \(i\) in the dataset, and \(c\) is the number of classes.
 
 - Number of instances where `PlayTennis` is `Yes` = 9
@@ -32,7 +32,7 @@ Here, \(p_i\) is the proportion of instances belonging to class \(i\) in the dat
 
 The total number of instances is 14. Therefore, the entropy is:
 
-\[
+$\[
 H(S) = -\left(\frac{9}{14}\right)\log_2\left(\frac{9}{14}\right) - \left(\frac{5}{14}\right)\log_2\left(\frac{5}{14}\right)
 \]
 
@@ -43,7 +43,7 @@ H(S) = -\left(\frac{9}{14}\right)\log_2\left(0.6429\right) - \left(\frac{5}{14}\
 \[
 H(S) = -(0.6429 \times -0.6439) - (0.3571 \times -1.4855) = 0.940
 \]
-
+$
 ### Step 2: Calculate the Information Gain for Each Attribute
 
 #### 1. **Information Gain for "Outlook"**
@@ -55,26 +55,26 @@ H(S) = -(0.6429 \times -0.6439) - (0.3571 \times -1.4855) = 0.940
 - **Outlook = Rain**: {D4, D5, D6, D10, D14} → [Yes, Yes, No, Yes, No]
 
 Now, we calculate the entropy for each subset:
-
+$
 1. **Sunny**:
    - \(H(Sunny)\) = \(-\left(\frac{3}{5}\right)\log_2\left(\frac{3}{5}\right) - \left(\frac{2}{5}\right)\log_2\left(\frac{2}{5}\right) = 0.971\)
 2. **Overcast**:
    - \(H(Overcast)\) = \(-\left(\frac{4}{4}\right)\log_2\left(\frac{4}{4}\right) = 0\) (since all outcomes are the same, entropy is 0)
 3. **Rain**:
    - \(H(Rain)\) = \(-\left(\frac{3}{5}\right)\log_2\left(\frac{3}{5}\right) - \left(\frac{2}{5}\right)\log_2\left(\frac{2}{5}\right) = 0.971\)
-
+$
 Now, calculate the weighted sum of the entropies (which is the expected entropy after splitting):
-
+$
 \[
 \text{Weighted Entropy (Outlook)} = \left(\frac{5}{14} \times 0.971\right) + \left(\frac{4}{14} \times 0\right) + \left(\frac{5}{14} \times 0.971\right) = 0.693
 \]
-
+$
 Finally, the Information Gain for "Outlook" is:
-
+$
 \[
 \text{IG}(S, \text{Outlook}) = H(S) - \text{Weighted Entropy (Outlook)} = 0.940 - 0.693 = 0.247
 \]
-
+$
 #### 2. **Information Gain for "Temperature"**
 
 **Splitting based on "Temperature":**
@@ -84,16 +84,16 @@ Finally, the Information Gain for "Outlook" is:
 - **Cool**: {D5, D6, D7, D9} → [Yes, No, Yes, Yes]
 
 Calculate the entropy for each subset:
-
+$
 1. **Hot**:
    - \(H(Hot)\) = \(-\left(\frac{2}{4}\right)\log_2\left(\frac{2}{4}\right) - \left(\frac{2}{4}\right)\log_2\left(\frac{2}{4}\right) = 1.0\)
 2. **Mild**:
    - \(H(Mild)\) = \(-\left(\frac{4}{6}\right)\log_2\left(\frac{4}{6}\right) - \left(\frac{2}{6}\right)\log_2\left(\frac{2}{6}\right) = 0.918\)
 3. **Cool**:
    - \(H(Cool)\) = \(-\left(\frac{3}{4}\right)\log_2\left(\frac{3}{4}\right) - \left(\frac{1}{4}\right)\log_2\left(\frac{1}{4}\right) = 0.811\)
-
+$
 Now, calculate the weighted sum of the entropies:
-
+$
 \[
 \text{Weighted Entropy (Temperature)} = \left(\frac{4}{14} \times 1.0\right) + \left(\frac{6}{14} \times 0.918\right) + \left(\frac{4}{14} \times 0.811\right) = 0.911
 \]
@@ -103,7 +103,7 @@ Finally, the Information Gain for "Temperature" is:
 \[
 \text{IG}(S, \text{Temperature}) = 0.940 - 0.911 = 0.029
 \]
-
+$
 #### 3. **Information Gain for "Humidity"**
 
 **Splitting based on "Humidity":**
@@ -112,14 +112,14 @@ Finally, the Information Gain for "Temperature" is:
 - **Normal**: {D5, D6, D7, D9, D10, D11, D13} → [Yes, No, Yes, Yes, Yes, Yes, Yes]
 
 Calculate the entropy for each subset:
-
+$
 1. **High**:
    - \(H(High)\) = \(-\left(\frac{3}{7}\right)\log_2\left(\frac{3}{7}\right) - \left(\frac{4}{7}\right)\log_2\left(\frac{4}{7}\right) = 0.985\)
 2. **Normal**:
    - \(H(Normal)\) = \(-\left(\frac{6}{7}\right)\log_2\left(\frac{6}{7}\right) - \left(\frac{1}{7}\right)\log_2\left(\frac{1}{7}\right) = 0.592\)
-
+$
 Now, calculate the weighted sum of the entropies:
-
+$
 \[
 \text{Weighted Entropy (Humidity)} = \left(\frac{7}{14} \times 0.985\right) + \left(\frac{7}{14} \times 0.592\right) = 0.789
 \]
@@ -129,7 +129,7 @@ Finally, the Information Gain for "Humidity" is:
 \[
 \text{IG}(S, \text{Humidity}) = 0.940 - 0.789 = 0.151
 \]
-
+$
 
 
 #### 4. **Information Gain for "Wind"**
@@ -140,7 +140,7 @@ Finally, the Information Gain for "Humidity" is:
 - **Strong**: {D2, D6, D7, D11, D12, D13, D14} → [No, No, Yes, Yes, Yes, Yes, No]
 
 Calculate the entropy for each subset:
-
+$
 1. **Weak**:
    - \(H(Weak)\) = \(-\left(\frac{2}{7}\right)\log_2\left(\frac{2}{7}\right) - \left(\frac{5}{7}\right)\log_2\left(\frac{5}{7}\right) = 0.863\)
 2. **Strong**:
@@ -157,7 +157,7 @@ Finally, the Information Gain for "Wind" is:
 \[
 \text{IG}(S, \text{Wind}) = 0.940 - 0.924 = 0.016
 \]
-
+$
 ### Step 3: Selecting the Best Attribute
 
 The Information Gains for the attributes are:
@@ -193,10 +193,10 @@ For the subset where **Outlook = Sunny**: {D1, D2, D8, D9, D11} → [No, No, No,
 - Number of `No` = 3
 
 Entropy:
-
+$
 \[
 H(S) = -\left(\frac{2}{5}\right)\log_2\left(\frac{2}{5}\right) - \left(\frac{3}{5}\right)\log_2\left(\frac{3}{5}\right) = 0.971
-\]
+\]$
 
 #### Step 2: Calculate Information Gain for Each Attribute in Subset
 
