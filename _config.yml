@@ -134,6 +134,11 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  syntax_highlighter: rouge
+
 
 # Markdown Processing
 kramdown:
